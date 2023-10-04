@@ -1,0 +1,19 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "This is going to be my practice in Cypress.io Automation",
+  "main": "index.js",
+  "scripts": {
+    "runner": "cypress open --e2e --browser chrome"
+  },
+  "keywords": [
+    "Cypress",
+    "Javascript",
+    "testing"
+  ],
+  "author": "Luigi Mendoza",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.0"
+  }
+}
