@@ -5,6 +5,6 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: 'http://uitestingplayground.com'
+    baseUrl: 'https://uitestingplayground.com'
   },
 });
