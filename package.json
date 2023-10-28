@@ -1,0 +1,23 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "This is going to be my practice in Cypress.io Automation",
+  "main": "index.js",
+  "scripts": {
+    "runner": "cypress open --e2e --browser chrome --config baseUrl=http://uitestingplayground.com/ --env demoVar=Hello_From_Package_Json_File" 
+  },
+  "keywords": [
+    "Cypress",
+    "Javascript",
+    "testing"
+  ],
+  "author": "Luigi Mendoza",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.0"
+  },
+  "dependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress-real-events": "^1.10.3"
+  }
+}
