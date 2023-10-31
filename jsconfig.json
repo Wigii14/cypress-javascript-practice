@@ -10,5 +10,17 @@
     "exclude": [
         "node_modules",
         "**/node_modules/*"
-    ]
+    ],
+
+    
+    "include": [
+        "node_modules/cypress", 
+        "./cypress/**/*.js"
+    
+    ],
+
+    //ignore local storage data on origins
+    //"chromeWebSecurity": false
+    
+    
 }

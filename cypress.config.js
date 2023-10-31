@@ -5,7 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: 'https://uitestingplayground.com',
+    //baseUrl: 'https://uitestingplayground.com',
     env:{
       demoVar: "Hello from the Cypress.Config.JS",
       demoQA: "https://demoqa.com/",

@@ -4,7 +4,7 @@
   "description": "This is going to be my practice in Cypress.io Automation",
   "main": "index.js",
   "scripts": {
-    "runner": "cypress open --e2e --browser chrome --config baseUrl=http://uitestingplayground.com/ --env demoVar=Hello_From_Package_Json_File" 
+    "runner": "cypress open --e2e --browser chrome --config baseUrl=http://uitestingplayground.com/ --env demoVar=Hello_From_Package_Json_File"
   },
   "keywords": [
     "Cypress",
@@ -14,7 +14,8 @@
   "author": "Luigi Mendoza",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.3.0"
+    "@testing-library/cypress": "^10.0.1",
+    "cypress": "^13.4.0"
   },
   "dependencies": {
     "@cypress/xpath": "^2.0.3",

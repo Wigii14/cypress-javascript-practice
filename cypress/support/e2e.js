@@ -18,6 +18,8 @@ import './commands';
 import "cypress-real-events";
 import './exceptions';
 
+import '@testing-library/cypress/add-commands'
+
 require('@cypress/xpath')
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
